@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.opticore.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "opticore.refmap.json",
+  "mixins": [
+    "CubicSplineMultipointMixin",
+    "ResourceLocationMixin",
+    "StructurePaletteMixin",
+    "compat.TerraBlenderAreaMixin",
+    "compat.HybridAquaticPlacementMixin",
+    "compat.BetterCavesNoiseGenMixin",
+    "server.ServerLevelTickMixin",
+    "server.MobAiThrottleMixin"
+  ],
+  "client": [
+    "client.ModelManagerCleanupMixin",
+    "client.ModelBakeryAccessor",
+    "client.ModelReloadStateAccessor",
+    "client.ParticleEngineBudgetMixin",
+    "client.BiomeBlendCacheMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
