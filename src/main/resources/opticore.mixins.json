@@ -12,7 +12,8 @@
     "compat.HybridAquaticPlacementMixin",
     "compat.BetterCavesNoiseGenMixin",
     "server.ServerLevelTickMixin",
-    "server.MobAiThrottleMixin"
+    "server.MobAiThrottleMixin",
+    "server.PlayerRespawnLogicMixin"
   ],
   "client": [
     "client.ModelManagerCleanupMixin",
