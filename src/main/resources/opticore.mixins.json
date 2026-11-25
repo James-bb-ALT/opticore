@@ -20,7 +20,8 @@
     "client.ModelBakeryAccessor",
     "client.ModelReloadStateAccessor",
     "client.ParticleEngineBudgetMixin",
-    "client.BiomeBlendCacheMixin"
+    "client.BiomeBlendCacheMixin",
+    "compat.EmiAnvilEnchantRecipeMixin"
   ],
   "injectors": {
     "defaultRequire": 1
